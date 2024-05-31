@@ -1,3 +1,5 @@
+# Alphasense's shitty CO sensors don't work, this code is currently non-functional
+
 # General
 
 import time
