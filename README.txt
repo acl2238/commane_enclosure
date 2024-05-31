@@ -1,0 +1,1 @@
+Before running anything, please open a virtual environment using "source env/bin/activate", then use pip "pip install -r requirements.txt" to make sure all prerequisite packages exist. If virtual environment doesn't exist use "python3 -m venv env". Thanks
