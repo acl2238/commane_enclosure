@@ -1,5 +1,3 @@
-# Alphasense's shitty CO sensors don't work, this code is currently non-functional
-
 # General
 
 import time
@@ -14,14 +12,14 @@ import adafruit_ads1x15.ads1115 as ADS
 from adafruit_ads1x15.analog_in import AnalogIn
 
 i2c = busio.I2C(board.SCL, board.SDA) # I2C interface
-ads = ADS.ADS1115(i2c) # ADS
+ads = ADS.ADS1115(i2c, address=0x48) # ADS
 
 carbon_monoxide_input = AnalogIn(ads, ADS.P0, ADS.P1) # Carbon Monoxide Differential Input
 # carbon_dioxide_input = AnalogIn(ads, ADS.CHANGETHIS # Carbon Dioxide Input
 
 # Changes current working directory to the Micro SD Card (or wherever you want really)
 # I'm sure there's a better way to do it but this value is hardcoded for now
-destination = '/media/acl2238/3332-6631' # This is the specific path to the specific MSD on this raspb
+destination = '/media/acl2238/3332-6631' # This is the specific hardcoded path to the specific MSD on this rasp pi
 # To change destination, change this string to the filepath to any drive/directory
 os.chdir(destination)
 
