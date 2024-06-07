@@ -6,3 +6,5 @@ Assumed hardware:
 - Jank ass alphasense sensors (will be updated)
 
 Before running anything, please open a virtual environment using "source env/bin/activate", then use pip "pip install -r requirements.txt" to make sure all prerequisite packages exist. If virtual environment doesn't exist use "python3 -m venv env". Thanks
+
+Shoot me an email at acl2238@columbia.edu if something doesn't work or you want wiring schematics
