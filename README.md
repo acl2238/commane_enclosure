@@ -45,4 +45,14 @@ pip install rpi-lgpio
 
 The program will run continuously in a loop, and turning the switch to an "on" position will start logging today. Turning the switch to the "off" position will stop the dataogging and the program will wait for the next switch pull to start logging data again. Ideally the switch should be mounted to something and states labeled. 
 
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/35102166-ab32-47a1-b9ce-4e827ccf0fdc">
+
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/653c0e03-0f83-4532-a185-423f6711324d">
+
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/bbe5e317-d84b-4ec7-8f99-8cd6e810896d">
+
+<img width="732" alt="image" src="https://github.com/user-attachments/assets/4c7ebf05-4fca-45c7-b6d9-a5096962b255">
+
+
+
 
