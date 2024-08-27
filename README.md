@@ -1,18 +1,19 @@
 Please Read!!!
 
 Parts List:
-CM-0111 vacuum pump
-Lithium Ion Battery (or any other modular power source, adapt as necessary)
-12v to 5v converter
-Raspberry Pi 4 and Canakit Case
-Alphasense CO-B4 Carbon Monoxide Sensor
-K30 CO2 Sensor
-Adafruit ADS1115 A to D converter
-Generic USB GPS (Vfan)
-Enclosure Parts (see 3d files)
-4.7 wide by 4.3 long push inserts
-M3 screws
-2 Switches
+
+- CM-0111 vacuum pump
+- Lithium Ion Battery (or any other modular power source, adapt as necessary)
+- 12v to 5v converter
+- Raspberry Pi 4 and Canakit Case
+- Alphasense CO-B4 Carbon Monoxide Sensor
+- K30 CO2 Sensor
+- Adafruit ADS1115 A to D converter
+- Generic USB GPS (Vfan)
+- Enclosure Parts (see 3d files)
+- 4.7 wide by 4.3 long push inserts
+- M3 screws
+- 2 Switches
 
 Note 1: The main file is gas.py, K30 only tracks CO2
 
