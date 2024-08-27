@@ -1,3 +1,5 @@
+The main file is gas.py
+
 For Nick Frearson's reference
 
 Instructions:
