@@ -55,6 +55,12 @@ The program will run continuously in a loop, and turning the switch to an "on" p
 
 <img width="732" alt="image" src="https://github.com/user-attachments/assets/4c7ebf05-4fca-45c7-b6d9-a5096962b255">
 
+![image](https://github.com/user-attachments/assets/e20c07d1-34f4-4557-a041-4e3e7c74bdab)
 
+![image](https://github.com/user-attachments/assets/64b75aaa-a11a-4864-9cea-e583e6a1d167)
+
+![image](https://github.com/user-attachments/assets/d6c4f742-da0b-4270-ab29-ecb484a68fff)
+
+![image](https://github.com/user-attachments/assets/2bfd3e11-897e-4bf3-a6fe-684ecb2947a2)
 
 
