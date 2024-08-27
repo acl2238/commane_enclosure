@@ -1,4 +1,4 @@
-The main file is gas.py
+Note 1: The main file is gas.py, K30 only tracks CO2
 
 For Nick Frearson's reference
 
@@ -16,8 +16,8 @@ run = lxterminal -e python3 (path to script)
 The path to script will look something like /home/name/.../k30.py
 
 4. Make sure that all requirements are satisfied (refer to requirements.txt)
-  - Note: Make sure Adafruit packages are installed following instructions on their website (blinka)
-  - Note 2: If error message pops up saying failed to add edge detection, do this:
+  - Note 2: Make sure Adafruit packages are installed following instructions on their website (blinka)
+  - Note 3: If error message pops up saying failed to add edge detection, do this:
 
 pip uninstall rpi.GPIO
 
