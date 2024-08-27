@@ -31,6 +31,7 @@ BUTTON_GPIO = 16 # check setmode
 # GPS reader, unsure if which port matters
 #gps = open('/dev/ttyACM0')
 
+# Helper method to get time
 def get_time():
     now = datetime.now()
     return now.strftime("%F_%H%M")
@@ -63,9 +64,9 @@ def button_callback(channel):
         ser = serial.Serial("/dev/ttyS0", baudrate=9600, timeout = .5)
         print("AN-137 RP3 to K-30")
         ser.flushInput()
-        linecounter = 0
+        linecounter = 0 # Line counter if you want to use it
         gps = open('/dev/ttyACM0')
-        time.sleep(1)
+        time.sleep(1) # Sleeps 1 second between reads by default, increase if you want less frequent readings
         for line in gps: 
             '''RMC line contains time in GMT, 
             lattitude, longitude, and date in
@@ -113,3 +114,5 @@ if __name__ == '__main__':
 
     signal.signal(signal.SIGINT, signal_handler)
     signal.pause()
+
+# hi :3
