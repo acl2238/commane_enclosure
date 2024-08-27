@@ -39,6 +39,7 @@ The path to script will look something like /home/name/.../k30.py
 pip uninstall rpi.GPIO
 
 pip install rpi-lgpio
+
 5. Make sure all hardware is plugged in (batteries plugged in, GPS plugged into USB, pump on, etc)
   Note 4: Make sure that the Pi and pump are receiving 5v, the Alphasense CO sensor is receiving 3.3v (off a GPIO pin preferably) and the K30 is receiving 12v (from power source likely)
 6. Edit the destination file in k30.py to point to whatever directory you want to save data to (I recommend making a folder in the code directory for storing all data)
