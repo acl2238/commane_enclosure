@@ -1,3 +1,19 @@
+Please Read!!!
+
+Parts List:
+CM-0111 vacuum pump
+Lithium Ion Battery (or any other modular power source, adapt as necessary)
+12v to 5v converter
+Raspberry Pi 4 and Canakit Case
+Alphasense CO-B4 Carbon Monoxide Sensor
+K30 CO2 Sensor
+Adafruit ADS1115 A to D converter
+Generic USB GPS (Vfan)
+Enclosure Parts (see 3d files)
+4.7 wide by 4.3 long push inserts
+M3 screws
+2 Switches
+
 Note 1: The main file is gas.py, K30 only tracks CO2
 
 For Nick Frearson's reference
@@ -23,6 +39,7 @@ pip uninstall rpi.GPIO
 
 pip install rpi-lgpio
 5. Make sure all hardware is plugged in (batteries plugged in, GPS plugged into USB, pump on, etc)
+  Note 4: Make sure that the Pi and pump are receiving 5v, the Alphasense CO sensor is receiving 3.3v (off a GPIO pin preferably) and the K30 is receiving 12v (from power source likely)
 6. Edit the destination file in k30.py to point to whatever directory you want to save data to (I recommend making a folder in the code directory for storing all data)
 7. reboot
 
