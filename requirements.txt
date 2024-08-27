@@ -135,8 +135,8 @@ rfc3986==2.0.0
 rgpio==0.2.2.0
 rich==13.7.1
 roman==3.3
+rpi-lgpio==0.4
 rpi-ws281x==5.0.0
-RPi.GPIO==0.7.1
 RTIMULib==7.2.1
 ruff==0.4.7
 SecretStorage==3.3.3

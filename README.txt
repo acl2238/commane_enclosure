@@ -1,10 +1,5 @@
-Assumed hardware:
-- Raspi 4
-- K30 CO2 Sensor
-- Adafruit 1115 ADS
-- SD card (or you could change code to write to a folder/file, currently hardcoded)
-- Jank ass alphasense sensors (will be updated)
+If error message pops up saying failed to add edge detection, do this:
 
-Before running anything, please open a virtual environment using "source env/bin/activate", then use pip "pip install -r requirements.txt" to make sure all prerequisite packages exist. If virtual environment doesn't exist use "python3 -m venv env". Thanks
+pip uninstall rpi.GPIO
 
-Shoot me an email at acl2238@columbia.edu if something doesn't work or you want wiring schematics
+pip install rpi-lgpio
