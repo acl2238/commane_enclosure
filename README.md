@@ -30,7 +30,7 @@ To run the data collection program at startup on newer models (likely including 
 
 [autostart]
 
-run = lxterminal -e python3 (path to script)
+run = lxterminal --command '/path to venv/env/bin/activate && python3 (path to script)'
 
 The path to script will look something like /something/.../k30.py
 
